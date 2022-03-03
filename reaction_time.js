@@ -49,3 +49,5 @@ window.addEventListener('keydown', function (e) {
     handle_keypress();
   }, false);
 
+window.addEventListener("click", handle_keypress);
+
